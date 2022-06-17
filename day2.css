@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-image: url(./temp/apple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.name{
+    font-size: 40;
+    color: black;
+    
+}
+#yatin{
+    font-size: 20;
+    color: blueviolet;
+}
