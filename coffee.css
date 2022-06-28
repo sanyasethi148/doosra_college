@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FEFCF7;
+  
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: cover;
+    height: 700px;
+     }
+
+.bg_image{
+    margin-top: 80px;
+  background-image: url(./temp/coffebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 1480px;
+  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: grey;
+    margin-bottom: 2%;
+    font-size: 26px;
+}
+
+coffee{
+    font-size: 1.5rem;
+    margin: 5rem;
+    color: grey;
+    
+    
+}
+
+.link ul{
+     margin: 0;
+     padding: 0; 
+     display: flex;
+}
+
+.link li{
+    list-style: none;
+}
+
+.link a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: grey;
+}
+
+.link li :hover{
+    background-color: rgb(200, 196, 204)}
+
+.great{
+    font-size: 59px;
+    color: white;
+    margin-left: 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para{
+    font-size: 20px;
+    color: white;
+    margin-left: 2%;
+}
+
+link2{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: grey;
+    margin-left: 15%; 
+    display: flex;  
+}
+
+link2 :hover{
+    background-color: aquamarine;
+}
+
+.poster_button
+{
+    width:210px;
+    padding: 15px;
+    border-radius:7px;
+    background-color: #0e8784;
+    color:white;
+    font-size: 18px;
+    border: 0px;
+    margin-top:50px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.poster_button:hover{
+    background-color: #66d2cf;
+    cursor: pointer;
+}
+
+.footer{
+    height: 80px;
+    bottom: 0;
+    position:fixed;
+    background-color:black;
+    color: white;
+    width: 96%; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:20px ;
+    margin-left: 10px;
+    
+}
+
+.roasters{
+  text-align: left;
+  font-size: 25px;
+  padding: 1rem;
+  /* margin-bottom: 10%;
+  margin-left:5% ; */
+}
+
+.footer_link{
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer_link :hover{
+    background-color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+
+.collection{
+    font-size: 18vh;
+    margin-top: 150px;
+    font-weight: bolder;
+    color: #bdbfc0; 
+    text-shadow: 0 0 10px rgba(176, 174, 174, 0.552);
+    text-shadow: 0 0 10px rgba(176, 174, 174, 0.552);
+    word-spacing: 2vw;
+    text-align: center;
+    text-shadow: -6px 6px  #bdbfc0;
+}
+
+.product
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 82%;
+    justify-content: space-around;
+    margin-left: 110px;
+    bottom: 70px;
+}
+.bag
+{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bag img{
+    /* width:250px;  */
+    width: 210px;
+    cursor: pointer;
+    display: flex;
+}
+
+.bag_text h3
+{
+    color:#333D4B;
+    padding-top:75px;
+    padding-bottom:35px; 
+    font-family: 'Fraunces', serif; 
+    font-size: 30px; 
+    /* font-weight: bolder ; */
+}
+
+.bag_text p
+{
+    color: #333D4B;
+    font-weight:lighter;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.choose{
+    background-color:#333d4b;
+    border: 200px solid #333d4b;
+    color: white;
+    border-radius: 20px;
+    text-align:  center;
+    margin: -40px 21px;
+    padding-bottom: 8%;
+    padding-top: -15%;
+    height: 550px;
+    margin-top: 8%;
+    
+}
+
+.choosetext{
+    margin-top: -10%;
+}
+
+.choose h3{
+    font-size: 40px;
+    font-family: "Fraunces",serif
+}
+
+.paragraph{
+    display: block;
+    
+}
+
+.quality_card_container
+{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom:200px;
+    margin-top: 8%;
+}
+
+.card
+{
+    width:350px;
+    height: 370px;
+    background-color: #0E8784;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_text h3
+{
+    padding-top:20px;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.card_text p
+{
+    padding-right:35px; 
+    padding-left:35px; 
+    padding-top:20px; 
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.working{
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    padding-left: 8%;
+}
